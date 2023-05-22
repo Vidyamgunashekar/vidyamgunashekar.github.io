@@ -10139,6 +10139,16 @@ p.lead {
   font-size: 1.5rem;
 }
 
+.subheading a {
+  color: #046675;
+  text-decoration: none;
+  background-color: transparent;
+}
+.subheading a:hover {
+  color: #046675;
+  text-decoration: underline;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800!important;
   letter-spacing: 0.05rem!important;
