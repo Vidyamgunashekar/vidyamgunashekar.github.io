@@ -4252,9 +4252,9 @@ input[type=button].btn-block {
   .d-block{
     padding-left:15px!important;
   }
-  /* .resume-section{
+   .resume-section{
     background-color:#bd5d38;
-  } */
+  } 
 }
 @media (min-width: 992px) {
   .navbar-expand-lg {
