@@ -305,7 +305,7 @@ fieldset {
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
-
+/*
 #skills .col img.responsive-img {
   margin: 0 auto;
   max-height: 100px;
@@ -313,6 +313,16 @@ fieldset {
   text-align: center;
   vertical-align: middle;
   display: table-cell;
+}
+*/
+#skills .col img.responsive-img {
+  margin: 0 auto;
+  max-height: 100px; /* Maintain the maximum height */
+  width: auto; /* Allow the width to adjust proportionally */
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: block; /* Use block display to avoid spacing issues */
 }
 
 legend {
